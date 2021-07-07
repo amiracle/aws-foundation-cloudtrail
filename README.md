@@ -9,9 +9,6 @@ This quick link will enable a new CloudTrail (cribl-cloudtrail-sqs-s3-Trail-`<un
 - [US West 1](https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fquickstart-cribl-logstream.s3.amazonaws.com%2Fcftemplates%2Fcloudtrail-s3%252Bsqs.yaml&stackName=cribl-cloudtrail-sqs-s3&param_CloudWatchLogsRetentionInDays=7&param_ExternalTrailBucket=&param_LogFilePrefix=&param_ParentAlertStack=&param_PermissionsBoundary=&param_S3DataEvents=true&param_SQS=cribl-sqs-cloudtrail)
 - [US West 2](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/quickcreate?templateUrl=https%3A%2F%2Fquickstart-cribl-logstream.s3.amazonaws.com%2Fcftemplates%2Fcloudtrail-s3%252Bsqs.yaml&stackName=cribl-cloudtrail-sqs-s3&param_CloudWatchLogsRetentionInDays=7&param_ExternalTrailBucket=&param_LogFilePrefix=&param_ParentAlertStack=&param_PermissionsBoundary=&param_S3DataEvents=true&param_SQS=cribl-sqs-cloudtrail)
 
-Here is what the completed CloudFormation screen should look like:
-![Complete VPC Flow](/screenshots/s3bucket/vpcflow/cloudtrail-data-collection.png)
-
 ### Setup CloudTrail Logs
 
 [Setup CloudTrail Logs and S3 collection](https://github.com/criblio/aws-quickstart-cribl-logstream/blob/main/steps/cloudtrail.md)
